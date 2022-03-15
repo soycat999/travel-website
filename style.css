@@ -1,0 +1,304 @@
+/* HTML and Body styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    background-color: aliceblue;
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    background-image: url(images/pexels-mateusz-sałaciak-4275885.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: auto 1000px;
+    padding-bottom: 10%;
+}
+
+
+/* font alignment + styling */
+
+h2,
+h1 {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+h4 {
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+/* navigation link stylings*/
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    background: white;
+}
+
+.navbar-text {
+    padding: 10px;
+    color: white;
+    background: rgb(2, 195, 195);
+}
+
+.navbar-text:hover {
+    color: rgb(66, 65, 65);
+}
+
+
+/* search bar */
+
+.search-bar {
+    width: 30%;
+    margin: auto;
+    display: flex;
+}
+
+
+/* about styling */
+
+.row {
+    justify-content: center;
+}
+
+.col1 {
+    background-color: white;
+    padding: 0;
+}
+
+.col2 {
+    background-color: white;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.col3 {
+    background-color: white;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.col4 {
+    background-color: white;
+    padding: 0;
+}
+
+
+/* card stylings */
+
+.card {
+    border-style: none;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 5px 10px 8px 10px rgba(46, 46, 46, 0.644);
+}
+
+.deals h2 {
+    margin-bottom: 5%;
+}
+
+.btn-primary {
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.card-title {
+    color: teal;
+    font-size: 1.5rem;
+}
+
+
+/* subpage 2 stylings */
+
+.itinerary {
+    margin-top: 5%;
+}
+
+.itinerary h2 {
+    color: teal;
+}
+
+.inclusions {
+    margin-top: 5%;
+}
+
+.inclusions h2 {
+    color: teal;
+}
+
+.exclusions {
+    margin-top: 5%;
+}
+
+.exclusions h2 {
+    color: teal;
+}
+
+.availability {
+    margin-top: 5%;
+}
+
+.availability h2 {
+    color: teal;
+}
+
+
+/* Footer styles */
+
+
+/* Sub */
+
+.subscription {
+    padding: 10px;
+    margin: auto;
+    color: rgb(203, 231, 233);
+    float: left;
+}
+
+.sub-button {
+    margin-left: auto;
+    width: 100%;
+}
+
+.sub-button h4 {
+    margin-bottom: 5%;
+    font-size: 1rem;
+}
+
+
+/* Footer
+*/
+
+footer {
+    background-color: rgba(49, 88, 100, 0.467);
+}
+
+footer .footer-box {
+    padding: 10px;
+    color: rgb(203, 231, 233);
+    text-align: center;
+}
+
+.footer {
+    padding-top: 20px;
+    background-color: rgba(65, 112, 128, 0.734);
+    width: auto;
+    text-align: center;
+    padding-bottom: 15px;
+    color: rgb(203, 231, 233);
+}
+
+
+/* Social Media Styling */
+
+.social-media {
+    padding: 10px;
+    text-align: center;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 1rem;
+    width: 30px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 10px;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 10px;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    padding: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.contact-form {
+    padding: 5%;
+    background: #fff;
+    margin: 10% 0%;
+    border-radius: 0.25rem;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+    .search-bar {
+        width: 100%;
+        margin: auto;
+        display: flex;
+    }
+    .about-text {
+        margin: 0 auto;
+    }
+    .why-text {
+        margin: 0 auto;
+    }
+    .itinerary {
+        margin-top: 10%;
+    }
+    .inclusions {
+        margin-top: 10%;
+    }
+    .exclusions {
+        margin-top: 10%;
+    }
+    .availability {
+        margin-top: 10%;
+    }
+    .text-center {
+        margin-top: 10%;
+    }
+}
+
+
+/* End */
